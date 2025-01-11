@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Task</title>
+</head>
+<body>
+
+<!-- Add Task Form -->
+<div>
+    <label for="taskInput">Task:</label>
+    <input type="text" id="taskInput" placeholder="Enter task">
+</div>
+
+<div>
+    <label for="taskDelay">Delay Task:</label>
+    <select id="taskDelay">
+        <option value="immediate">Immediate</option>
+        <option value="delayed">Delayed (2 seconds)</option>
+    </select>
+</div>
+
+<button onclick="addTask()">Add Task</button>
+
+<!-- Back to Home Button -->
+<div>
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+</div>
+
+<!-- Link to External JavaScript File -->
+<script src="script.js"></script>
+
+</body>
+</html>
